@@ -3,7 +3,7 @@
 @import "helpers/functions";
 @import "helpers/mixins";
 @import "helpers/colors";
-//@import "vendor/breakpoint/breakpoint";
+@import "vendor/breakpoint/breakpoint";
 
 
 // Partials
@@ -13,6 +13,7 @@
 @import "components/navigation";
 @import "components/buttons";
 @import "layout/main";
+
 //@import "layout/queries";
 //@import "vendor/helpers";
 //@import "vendor/print";
