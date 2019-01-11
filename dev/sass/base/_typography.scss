@@ -1,0 +1,19 @@
+// Include fonts using mixin
+
+
+
+/*
+"oldie"==>IE8 and above/ Android native browser 4+/ Safari 4.3
+"recent"==>IE9+/ Android native browser 4.0+/ Safari 4.3+
+"modern"==>IE9+/ Android native browser 4.4+/ Safari 5.1+'
+*/
+
+@include font-face("Roboto", "../fonts/fonts/Roboto-Regular", 400, normal, "modern");
+
+
+p { @include font-size(18px); color: $color-text; font-weight: 300; line-height: 34px; }
+a { text-decoration: none; color: $color-link; }
+
+// Address font sizes and margins set differently in IE 6/7.
+// Address font sizes within `section` and `article` in Firefox 4+, Safari 5,
+// and Chrome.
