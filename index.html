@@ -20,39 +20,72 @@
         <div class="wrapper">
 
             <header>
-                <img src="assets/img/logo.png" alt="Logo T4xi" class="headerLogo">
+                <a href="#" title="Home" class="headerLogoLink">
+                    <img src="assets/img/layout/logo.png" alt="Logo T4xi" class="headerLogo">
+                </a>
 
                 <div class="navbarSidebar">
                     <ul>
-                        <li><img src="assets/img/icons/icon-menu-1.svg" alt="Icono Eventos">Eventos</li>
-                        <li><img src="assets/img/icons/icon-menu-2.svg" alt="Icono Organizadores">Organizadores</li>
-                        <li><img src="assets/img/icons/icon-menu-3.svg" alt="Icono Deportistas">Deportistas</li>
-                        <li><img src="assets/img/icons/icon-menu-4.svg" alt="Icono Contenido">Contenido</li>
-                        <li><img src="assets/img/icons/icon-menu-5.svg" alt="Icono Exportar">Exportar</li>
+                        <li class="hvr-sweep-to-right"><a href="#" title="Eventos"><img src="assets/img/icons/icon-menu-1.svg" alt="Icono Eventos">Eventos</a></li>
+                        <li class="hvr-sweep-to-right"><a href="#" title="Organizadores"><img src="assets/img/icons/icon-menu-2.svg" alt="Icono Organizadores">Organizadores</a></li>
+                        <li class="hvr-sweep-to-right"><a href="#" title="Deportistas"><img src="assets/img/icons/icon-menu-3.svg" alt="Icono Deportistas">Deportistas</a></li>
+                        <li class="hvr-sweep-to-right"><a href="#" title="Contenido"><img src="assets/img/icons/icon-menu-4.svg" alt="Icono Contenido">Contenido</a></li>
+                        <li class="hvr-sweep-to-right"><a href="#" title="Exportar"><img src="assets/img/icons/icon-menu-5.svg" alt="Icono Exportar">Exportar</a></li>
                     </ul>
                 </div>
             </header>
         
-            <main>
+            <div class="mainContainer scrollX">
+                <div class="scrollContainer">
+
+                    <div class="cardGroup even">
+
+                        <a href="#" title="Evento 1" class="cardLink"> <!-- @START Evento 1 -->
+                            <div class="card">
+                                <div class="cardImgContainer">
+                                    <img src="assets/img/layout/unsplash/img-1.jpg" alt="Palm Trees" class="cardImg" srcset="assets/img/layout/unsplash/img-1-@2x.jpg" />
+                                </div>
+                                <div class="cardContent">
+                                    <h3 class="cardTitle">Become A Travel Pro In One Easy Lesson</h3>
+                                    <p class="cardDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                    <button class="cardBtn">button 1</button>
+                                </div>
+                            </div>
+                        </a> <!-- @END Evento 1 -->
+                        
+                        <a href="#" title="Evento 2" class="cardLink"> <!-- @START Evento 2 -->
+                            <div class="card">
+                                <div class="cardImgContainer">
+                                    <img src="assets/img/layout/unsplash/img-2.jpg" alt="Palm Trees" class="cardImg" srcset="assets/img/layout/unsplash/img-2-@2x.jpg" />
+                                </div>
+                                <div class="cardContent">
+                                    <h3 class="cardTitle">Family Safari Vacation To The Home Of The Gods</h3>
+                                    <p class="cardDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    <button class="cardBtn">button 1</button>
+                                </div>
+                            </div>
+                        </a> <!-- @END Evento 2 -->
+                    </div> <!-- @END cardGroup even -->
+
+                    <div class="cardGroup odd">
+                        <a href="#" title="Evento 3" class="cardLink"> <!-- @START Evento 3 -->
+                            <div class="card">
+                                <div class="cardImgContainer">
+                                    <img src="assets/img/layout/unsplash/img-1.jpg" alt="Palm Trees" class="cardImg" srcset="assets/img/layout/unsplash/img-3-@2x.jpg" />
+                                    <!-- <img src="assets/img/layout/unsplash/img-1-@2x.jpg" alt="Palm Tress" class="cardImg"> -->
+                                </div>
+                                <div class="cardContent">
+                                    <h3 class="cardTitle">Get Around Easily With A New York Limousine Service</h3>
+                                    <p class="cardDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <button class="cardBtn">button 1</button>
+                                </div>
+                            </div>
+                        </a> <!-- @START Evento 3 -->
+                    </div>  <!-- @END cardGroup odd -->
                 
-            </main>
+                </div> <!-- @END scrollContainer -->
+            </div> <!-- @END mainContainer scrollX -->
+        </div> <!-- @END wrapper -->
 
-        </div>
-
-
-
-
-        <!-- <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>  -->
-
-        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-        <!-- <script>
-            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
-        </script>
-        <script src="https://www.google-analytics.com/analytics.js" async defer></script> -->
     </body>
 </html>

@@ -2,18 +2,15 @@
 // --------------------------------------------
 
 // Brand colors
-$color-pri:            #0180ba;
-$color-sec:            #3D3F41;
-$color-acc:            #00e9cf;
+$color-pri:            #000000; // #black
+$color-sec:            #eaeaea; // #grey-2
+$color-acc:            #ffffff; // #white
 
 // Generic colors
 $color-select:         $color-pri;
-$color-register:       #efd314;
+$color-register:       #555555;
 $color-register-txt:   $color-pri;
 
-// Links
-$color-link:           #3A6F97;
-$color-link-hover:     #4c93cb;
 
 // Accent colors
 $color-success:        #5cb85c;
@@ -24,7 +21,11 @@ $color-disabled:       #cccccc;
 
 // Base colors
 $color-body-bg:        #fff;
-$color-text:           #656c6e;
+$color-text:           #555555; // #grey-1
+
+// Links
+$color-link:           $color-text;
+$color-link-hover:     $color-pri;
 
 // Social Networks
 // http://brandcolors.net/

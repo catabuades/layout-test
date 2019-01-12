@@ -1,6 +1,27 @@
 // Include fonts using mixin
+@font-face {
+	font-family: 'Source Sans Pro';
+	src: url($fonts+'sourcesanspro-light-webfont.woff2') format('woff2'),
+		url($fonts+'sourcesanspro-light-webfont.woff') format('woff');
+	font-weight: 300;
+	font-style: light;
+}
 
+@font-face {
+	font-family: 'Source Sans Pro';
+	src: url($fonts+'sourcesanspro-regular-webfont.woff2') format('woff2'),
+		url($fonts+'sourcesanspro-regular-webfont.woff') format('woff');
+	font-weight: 400;
+	font-style: regular;
+}
 
+@font-face {
+	font-family: 'Source Sans Pro';
+	src: url($fonts+'sourcesanspro-bold-webfont.woff2') format('woff2'),
+		url($fonts+'sourcesanspro-bold-webfont.woff') format('woff');
+	font-weight: 700;
+	font-style: bold;
+}
 
 /*
 "oldie"==>IE8 and above/ Android native browser 4+/ Safari 4.3
@@ -8,11 +29,13 @@
 "modern"==>IE9+/ Android native browser 4.4+/ Safari 5.1+'
 */
 
-@include font-face("Roboto", "../fonts/fonts/Roboto-Regular", 400, normal, "modern");
+html, body { font-family: 'Source Sans Pro', 'sans-serif'; color: $color-text; text-rendering: optimizeLegibility; }
 
-
-p { @include font-size(18px); color: $color-text; font-weight: 300; line-height: 34px; }
+.cardTitle { font-size: $title-font-size; font-weight: 700; line-height: 1.2em; margin: 10px 0 0;}
+.cardDescription { font-size: $base-font-size; color: $color-text; font-weight: 300; line-height: normal; }
 a { text-decoration: none; color: $color-link; }
+
+li { font-style: light; font-size: $nav-font-size; }
 
 // Address font sizes and margins set differently in IE 6/7.
 // Address font sizes within `section` and `article` in Firefox 4+, Safari 5,

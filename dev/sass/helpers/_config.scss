@@ -7,6 +7,29 @@
 // Use: background: #fff url($layout+'image.png');
 $layout: '../img/layout/';
 $tmp:   '../img/tmp/';
+$fonts:   '../fonts/';
 
-// Text
-//$base-font-size: 16px;
+// Font size
+$nav-font-size: 14px;
+$base-font-size: 16px;
+$button-font-size: 18px;
+$title-font-size: 20px;
+
+// Mob
+// 16px (text card)
+// 18px (button)
+// 20px (title)
+
+// Tab
+// 14px (nav)
+// 16px (text card)
+// 18px (button)
+// 20px (title)
+
+// Dsk
+// 14px (nav)
+// 16px (text card)
+// 18px (button)
+// 20px (title)
+
+
